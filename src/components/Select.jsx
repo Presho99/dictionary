@@ -4,13 +4,13 @@ import Definition from "./Definition";
 function Select({ all, main }) {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid px-4">
         <div className="row dark-theme">
-          <div className="col-12 text-center text-capitalize fs-1 fw-bold text-decoration-underline">
+          <div className="text-3xl font-extrabold mt-9">
             {main.word}
           </div>
           <div className="col-12 text-start my-3 text-capitalize fs-4 fw-bold">
-            meaning & definitions :
+            Meaning
           </div>
           <div>
             <ol>
